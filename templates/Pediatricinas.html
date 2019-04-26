@@ -1,0 +1,40 @@
+{% extends 'cat_template.html' %}
+
+{% block title %}Cardiology{% endblock %}
+
+
+
+{% block content %}
+
+	<div>
+		<p ><font color="	#008080	" size="+2"><b>Dr Deepa Dharanappa<b><br></font>
+			<font color="#008080">Qualifications :</font> MBBS , MD(Pediatrics),Fellowship in Neonatology</br>
+			<font color="#008080">Designation: </font>Consultant</br>
+			<font color="#008080">Speciality:</font>Pediatrics</br>
+			<font color="#008080">Location :</font> St.Johns Hospitals <p>
+				<button class="button" onClick="location.href='appointment.html'" onmousemove="onmouse()"
+			 >Book Appointment</button>
+			
+	</div>
+	<div>
+		<p ><font color="	#008080	" size="+2"><b>Dr B Kalyan Chakravarthy<b><br></font>
+			<font color="#008080">Qualifications :</font> MBBS , MD</br>
+			<font color="#008080">Designation: </font>Consultant</br>
+			<font color="#008080">Speciality:</font>Pediatrics</br>
+			<font color="#008080">Location :</font> St.Johns Hospitals <p>
+				<a href = "{% url 'app_new' %}" ><button class="button"  >Book Appointment</button></a></div>
+	<div>
+		<p ><font color="	#008080	" size="+2"><b>Dr Thakur Shashidhar<b><br></font>
+			<font color="#008080">Qualifications :</font> MBBS , DCH</br>
+			<font color="#008080">Designation: </font>Consultant</br>
+			<font color="#008080">Speciality:</font>Pediatrics</br>
+			<font color="#008080">Location :</font> St.Johns Hospitals <p>
+				<a href = "{% url 'app_new' %}" ><button class="button"  >Book Appointment</button></a></div>
+	<div>
+		<p ><font color="	#008080	" size="+2"><b>Dr Konda Rama Krishna<b><br></font>
+			<font color="#008080">Qualifications :</font> MBBS , DCH</br>
+			<font color="#008080">Designation: </font>Consultant</br>
+			<font color="#008080">Speciality:</font>Pediatrics</br>
+			<font color="#008080">Location :</font> St.Johns Hospitals <p>
+				<a href = "{% url 'app_new' %}" ><button class="button"  >Book Appointment</button></a></div>
+	{% endblock %}

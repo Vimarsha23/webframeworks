@@ -1,0 +1,32 @@
+{% extends 'cat_template.html' %}
+
+{% block title %}Cardiology{% endblock %}
+
+
+
+{% block content %}
+
+	<div>
+		<p ><font color="	pink" size="+2"><b>Dr G Pramoda<b><br></font>
+			<font color="pink">Qualifications :</font> MBBS , MD(Dermatology , Venereology , Leprosy</br>
+			<font color="pink">Designation: </font>Consultant</br>
+			<font color="pink">Speciality:</font>Dentistry</br>
+			<font color="pink">Location :</font> St.Johns Hospitals <p>
+<a href = "{% url 'app_new' %}" ><button class="button"  >Book Appointment</button></a>
+	</div>
+	<div>
+		<p ><font color="	pink	" size="+2"><b>Dr P L Chandravathi<b><br></font>
+			<font color="pink">Qualifications :</font> MBBS , MD , FISD , FAAD</br>
+			<font color="pink">Designation: </font>Consultant</br>
+			<font color="pink">Speciality:</font>Dentistry</br>
+			
+			<font color="pink">Location :</font> St.Johns Hospitals <p>
+<a href = "{% url 'app_new' %}" ><button class="button"  >Book Appointment</button></a>	</div>
+	<div>
+		<p ><font color="pink	" size="+2"><b>Dr Swapna Priya<b><br></font>
+			<font color="pink">Qualifications :</font> MBBS , MD(DVL)</br>
+			<font color="pink">Designation: </font>Consultant</br>
+			<font color="pink">Speciality:</font>Dentistry</br>
+			<font color="pink">Location :</font> St.Johns Hospitals <p>
+<a href = "{% url 'app_new' %}" ><button class="button"  >Book Appointment</button></a>	</div>
+{% endblock %}

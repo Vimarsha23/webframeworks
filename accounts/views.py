@@ -23,7 +23,7 @@ def gyn(request):
 def card(request):
 	return render(request,"card.html",{})
 def pedia(request):
-	return render(request,"pediatricinas.html",{})
+	return render(request,"Pediatricinas.html",{})
 def onc(request):
 	return render(request,"onc.html",{})
 def neuro(request):
